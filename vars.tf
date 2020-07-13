@@ -47,9 +47,6 @@ variable "template_name" {
 variable "vm_name" {
   type=string
 }
-variable "vapp_net_nat_ip" {
-  type=string
-}
 variable "vm_nat_port" {
   type=number
 }
